@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu{
+    border: 1px solid red;
+    background: rgb(0, 0, 0);
+}
+
+.menu2{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu2 h1{
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+.menu-ll{
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+    border: 1px solid;
+    align-items: center;
+    margin-left: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.menu-ll li{
+    margin: 1rem;
+    margin-left: 1rem;
+    font-size: 110%;
+}
+
+.menu-ll li a{
+    color: white;
+}
+
+.meimg{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.meimg img{
+    width: 10%;
+}
+
+.meimg img{
+    display: none;
+}
+
+.menu3{
+    display: none;
+}
+
+@media (max-width: 990px) {
+    
+   .menu2{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .menu-ll{
+        display: none;
+        margin: auto;
+    }
+
+    .meimg{
+        margin: 1rem;
+        width: 100%;
+    }
+
+    .meimg img{
+        display: block;
+        margin-right: auto;
+        border: 1px solid red;
+        width: 80px;
+    }
+
+    .menu3{
+        top: -100%;
+        background: rgb(42, 42, 42);
+        display: block;
+        position: fixed;
+    }
+
+    .menu-ll3{
+        border: 1px solid;
+        text-align: center;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+
+    .menu-ll3 li a{
+        color: white;
+        line-height: 50px;
+    }
+}

@@ -1,0 +1,48 @@
+.bodydd{
+    border: 1px solid;
+    margin: 1rem;
+    height: 70vh;
+}
+
+.bo2{
+    border: 1px solid;
+    margin: 1rem;
+    height: 130vh;
+    box-sizing: border-box;
+}
+
+.imgbok{
+    border: 1px solid;
+    margin: 1rem;
+    height: 45%;
+    box-sizing: border-box; 
+    display: flex;
+}
+
+.imgbok2{
+    border: 1px solid;
+    margin: 1rem;
+    height: 45%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.imgh{
+    border: 1px solid;
+    margin: 1rem;
+    width: 80%;
+    border-radius: 20px;
+}
+
+@media (max-width: 300px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: "Oswald", sans-serif;
+        background-attachment: fixed;
+        appearance: none;
+    }
+
+}
